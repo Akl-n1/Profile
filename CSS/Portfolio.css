@@ -178,9 +178,12 @@ section {
     display: none;
   }
   .main .boxs .text h1 {
-    font-size: 37px;
+    font-size: 30px;
     margin: 27px 0;
     height: 42px;
+  }
+  .main .boxs .text h2 {
+    font-size: 20px;
   }
   .main .boxs .social i {
     justify-content: center;
@@ -214,6 +217,11 @@ section {
   }
   .About .content .text {
     text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  .About .content .text h1 {
+    font-size: 43px;
   }
 }
 @media (max-width: 350px) {

@@ -84,14 +84,12 @@ document.addEventListener("DOMContentLoaded", function () {
       if (window.matchMedia("(min-width: 769px)").matches) {
         headers.style.backgroundColor = "transparent";
       } else {
-        headers.style.backgroundColor =
-          getComputedStyle(main_headers).backgroundColor;
+        headers.style.backgroundColor = "rgb(0 0 0 / 90%)";
       }
     } else {
       btn.style.display = "none";
       main_headers.style.backgroundColor = "#131821";
-      headers.style.backgroundColor =
-        getComputedStyle(main_headers).backgroundColor;
+      headers.style.backgroundColor = "#131821";
     }
   };
 

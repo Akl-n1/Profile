@@ -221,7 +221,7 @@ section {
 }
 @media (max-width: 450px) {
   .About .content .text h1 {
-    font-size: 43px;
+    font-size: 42px;
   }
 }
 @media (max-width: 350px) {
